@@ -39,10 +39,10 @@ function Projects() {
               <Image
                 src={`/assets/images/${project.name}.png`}
                 alt="project image"
-                width="0"
-                height="0"
+                width={0}
+                height={0}
                 sizes="100vh"
-                className="w-full h-auto object-cover lgl:grayscale lgl:group-hover:grayscale-0"
+                className="w-full h-full object-cover lgl:grayscale lgl:group-hover:grayscale-0"
               />
               <div className="hidden lgl:inline-block absolute w-full h-full top-0 left-0 bg-textGreen/25 group-hover:bg-transparent duration-300" />
             </a>

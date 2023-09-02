@@ -60,10 +60,11 @@ function About() {
           <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0 group-hover:-translate-y-2 group-hover:-translate-x-2 transition-transform duration-300">
             <Image
               src="/assets/images/profile.png"
-              width={400}
-              height={400}
+              width={0}
+              height={0}
+              sizes="400px"
               alt="profile image"
-              className="rounded-lg h-full object-cover lgl:grayscale lgl:group-hover:grayscale-0"
+              className="rounded-lg h-auto w-auto object-cover lgl:grayscale lgl:group-hover:grayscale-0"
             />
             <div className="hidden lgl:inline-block absolute w-full h-80 top-0 left-0 bg-textGreen/25 rounded-lg group-hover:bg-transparent duration-300" />
           </div>
