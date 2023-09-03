@@ -24,7 +24,7 @@ function About() {
           <p>
             Hello! My name is Chase and I enjoy building applications that do
             cool stuff on the internet. My interest in computers and code
-            started when I built my first PC in 2016, but I didn't start
+            started when I built my first PC in 2016, but I didn&apos;t start
             programming until my first Java course in 2021.
           </p>
           <p>
