@@ -13,7 +13,7 @@ function Contact() {
       transition={{ duration: 0.5, delay: 0.3 }}
     >
       <SectionTitle title="Contact" number={4} divider={false} />
-      <p className="text-center text-textDark font-sm mt-2">
+      <p className="text-center font-sans text-textDark font-sm mt-2">
         My inbox is always open! Contact me for opportunities, questions, or if
         you just want to hi. I will get back as fast as I can.
       </p>
