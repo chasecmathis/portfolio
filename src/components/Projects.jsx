@@ -14,8 +14,16 @@ const projects = [
       "A web app built for viewing all Pokémon and their traits. Also allows for Pokémon team building and analysis. Built using the PokéAPI and NextJS, deployed using Vercel",
     link: "https://mewdex.net",
     repo: "https://github.com/chasecmathis/mewdex",
-    tech: ["JavaScript", "NextJS", "React", "HTML/CSS", "Git"],
+    tech: ["JavaScript", "Next.js", "React", "HTML/CSS", "Git"],
   },
+  {
+    name: "Pensive Notebook",
+    description:
+      "A secure and feature-rich Next.js application allowing users to take notes with a comprehensive text editor. Integrated OpenAI API for AI-driven sentence autocompletion, enhancing the user's note-taking experience.",
+    link: "https://pensivenotebook.vercel.app",
+    repo: "https://github.com/chasecmathis/pensive",
+    tech: ["TypeScript", "Next.js", "React", "TailwindCSS", "Git"],
+  }
 ];
 
 function Projects() {
@@ -29,7 +37,7 @@ function Projects() {
     >
       <SectionTitle title="My Projects" number={3} divider />
       {projects.map((project, i) => (
-        <div key={project.name} className="flex flex-col justify-center mt-10 items-center gap-28 w-full">
+        <div key={project.name} className="flex flex-col justify-center mt-24 items-center gap-28 w-full">
           <div className="flex flex-col xl:flex-row gap-6">
             <a
               href={`${project.link}`}

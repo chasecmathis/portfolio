@@ -7,7 +7,7 @@ import Link from "next/link";
 
 import { AiOutlineBulb } from "react-icons/ai";
 
-const skills = ["Java", "JavaScript", "React", "SQL", "C", "Datadog"];
+const skills = ["Java", "JavaScript", "React", "SQL", "C", "Python"];
 
 function About() {
   return (
@@ -41,7 +41,7 @@ function About() {
             where I figured out how to apply the software engineering skills I
             learned in class to real world problems. My interest lies in
             building up full stack applications that enhance user experience. I
-            am currently entering my senior year of college and am looking for
+            am currently in my senior year of college and am looking for
             opportunities!
           </p>
           <p>Here are some of the technologies that I am familiar with:</p>
